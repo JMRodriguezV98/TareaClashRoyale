@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+}
+
+#principalContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/src/img/background.png");
+}
+
+#appContent{
+    display: flex;
+    height: 60%;
+    width: 40%;
+    background-color: wheat;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+#placeImage{
+    object-fit: contain;
+}
+
+#app{
+    display: flex;
+    width: 100%;
+    width: 100%;
+}
+
+#appInfo{
+    display: flex;
+    width: 100%;
+    width: 100%;
+    flex-flow: column;
+}
+
+.nextback{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#images{
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#vista{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    width: 40%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: rgba(18, 46, 205, 0.83);
+    border: none;
+    cursor: pointer;
+    font-family: 'Skranji', cursive;
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+}
+
+.back{
+    height: 10%;
+    width: 35%;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(18, 46, 205, 0.83);
+    cursor: pointer;
+    color: white;
+}
+
+.next{
+    color: white;
+    height: 10%;
+    width: 35%;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(18, 46, 205, 0.83);
+    cursor: pointer;
+}
+
+#contentInfo{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+#regresar{
+    width: 20%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: rgba(18, 46, 205, 0.83);
+    border: none;
+    cursor: pointer;
+    font-family: 'Skranji', cursive;
+    font-weight: 700;
+    font-size: large;
+    color: white;
+}
+
+#contentInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#information{
+    font-family: 'Skranji', cursive;
+    text-align: justify;
+}
+
+#imag{
+    object-fit: contain;
+}
+
+.bloqueado{
+    color: white;
+    height: 10%;
+    width: 35%;
+    border-radius: 50%;
+    border: none;
+    background-color: grey;
+    cursor: not-allowed;
+}
